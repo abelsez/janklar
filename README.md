@@ -11,6 +11,9 @@ Janklar is a lightweight, sovereign encryption engine designed for high-integrit
 ## Why Janklar?
 Standard encryption tools often require significant overhead and persistent connectivity, which are not viable in low-budget, high-threat scenarios. Janklar bridges this gap, offering a resilient alternative for individual sovereignty.
 
+## Security Model
+Janklar focuses on non-linear bitwise diffusion to resist algebraic cryptanalysis. It is built for environments where infrastructure cannot be trusted, ensuring that even if intercepted, the data remains cryptographically isolated from the underlying transport layer.
+
 ## Usage
 The system utilizes the `./sovereign` binary for data processing:
 
